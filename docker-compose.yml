@@ -3,7 +3,7 @@ version: '3.7'
 services:
   privoxy:
     build:
-      context: https://github.com/leleobhz/alpine-privoxy.git
+      context: https://github.com/jusbrasil/alpine-privoxy.git
     container_name: privoxy
 #    environment:
 #      - SOCKS5IP=10.5.0.5
